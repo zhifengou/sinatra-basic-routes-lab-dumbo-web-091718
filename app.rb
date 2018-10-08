@@ -9,6 +9,7 @@ class App < Sinatra::Base
     "My name is Zhifeng."
   end
   
+  
   get ('/hometown') { "My hometown is Jiangmen,China"}
   get ('/favorite-song') {"My favorite song is 300"}
   end
