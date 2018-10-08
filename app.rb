@@ -13,3 +13,5 @@ class App < Sinatra::Base
   get ('/hometown') { "My hometown is Jiangmen,China"}
   get ('/favorite-song') {"My favorite song is 300"}
   end
+
+# class App < Siniatra::Base 
